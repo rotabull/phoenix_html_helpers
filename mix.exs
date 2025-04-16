@@ -30,7 +30,7 @@ defmodule PhoenixHTMLHelpers.Mixfile do
 
   defp deps do
     [
-      {:phoenix_html, "~> 4.0"},
+      {:phoenix_html, "~> 2.11"},
       {:plug, "~> 1.5", optional: true},
       {:ex_doc, ">= 0.0.0", only: :docs}
     ]
